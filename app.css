@@ -1,0 +1,125 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Croissant+One&family=Fuggles&family=Rubik+Doodle+Shadow&display=swap');
+
+  
+h1{
+    font-family: Rubik Doodle Shadow;
+    color: #005AA7;
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px #000;
+}
+
+body {
+    background: #654ea3;
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+    
+}
+
+
+
+
+
+
+
+input{
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #00416A;
+    margin-left: 5rem;
+    width: 17rem;
+    height: 35px;
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+ul{
+    width: 500px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+}
+#button{
+    height: 40px;
+    width: 70px;
+    background: #00416A;  
+border: transparent;
+border-radius: 10px;
+color: #fff;
+box-sizing: border-box;
+transition: all linear .2s;
+}
+
+#button:hover{
+    box-shadow: inset 5px 4px  9px #000;
+    cursor: pointer;
+}
+.btn{
+    color: #fff;
+    margin-right: 2rem;
+    height: 40px;
+    width: 50px;
+    background: #00416A;  
+border: transparent;
+border-radius: 10px;
+
+box-sizing: border-box;
+transition: all linear .2s;
+}
+
+.btn:hover{
+    box-shadow: inset 5px 4px  9px #000;
+    cursor: pointer;
+}
+li{
+    text-transform: uppercase;
+    color: #000;
+    font-family: Verdana;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    height: 70px;
+    margin-bottom: 1.6rem;
+    border-radius: 10px;
+    font-family: Shadow;
+    font-size: 1.3rem;
+    list-style: none;
+    text-align: center;
+ background-color: #fff;
+ box-shadow: 2px 2px  2px #000;
+
+}
+
+.buttons{
+    float: right;   
+    margin-left: 5rem; 
+}
+
+
+
+h1{
+    text-align: center;
+}
+
